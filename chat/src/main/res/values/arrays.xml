@@ -2,6 +2,7 @@
 <resources>
     <string-array name="languages">
         <item>@string/language_chinese</item>
+        <item>@string/language_chinese_tw</item>
         <item>@string/language_english</item>
     </string-array>
 </resources>
