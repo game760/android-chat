@@ -76,7 +76,7 @@ public class Config {
      * <p>
      * 如果不想显示工作台，置为 null 即可
      */
-    public static String WORKSPACE_URL = "https://open.wildfirechat.cn/work.html";
+    public static String WORKSPACE_URL = "null";
 
     /**
      * 语音识别服务地址，配置之后，长按语音消息，会显示转文字按钮。
@@ -135,11 +135,11 @@ public class Config {
     public static String AI_ROBOT = "FireRobot";
 
     // 用户协议地址
-    public final static String USER_AGREEMENT_URL = "https://example.com/user_agreement.html";
+    public final static String USER_AGREEMENT_URL = "https://user.queryip.top/agreement.html";
 
     //  隐私协议地址
-    public final static String PRIVACY_AGREEMENT_URL = "https://example.com/user_privacy.html";
+    public final static String PRIVACY_AGREEMENT_URL = "https://user.queryip.top/privacy.html";
 
     // 是否显示调试信息
-    public final static boolean SHOW_DEBUG_INFO = true;
+    public final static boolean SHOW_DEBUG_INFO = false;
 }
