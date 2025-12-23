@@ -18,11 +18,11 @@
     <string name="name">LaoDaoIM</string>
     <string name="slogan">沟通如此简单</string>
     <string name="about_intro_title">功能介绍</string>
-    <string name="about_intro_url">https://#</string>
+    <string name="about_intro_url">https://user.queryip.top/workgroup.html</string>
     <string name="about_agreement_title">用户协议</string>
-    <string name="about_agreement_url">https://#</string>
+    <string name="about_agreement_url">https://user.queryip.top/agreement.html</string>
     <string name="about_privacy_title">隐私政策</string>
-    <string name="about_privacy_url">https://#</string>
+    <string name="about_privacy_url">https://user.queryip.top/privacy.html</string>
 
     <!--Login-->
     <string name="mobile_number">手机号</string>
