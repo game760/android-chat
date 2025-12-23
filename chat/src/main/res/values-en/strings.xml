@@ -152,7 +152,7 @@
     <!-- Setting -->
     <string name="upload_log_success">Uploaded log %1$s successfully</string>
     <string name="upload_log_failed">Failed to upload log %1$d %2$s</string>
-    <string name="battery_optimize_allowed">Battery optimization ignored, allowing WildFire IM to run in background for better message real-time performance</string>
+    <string name="battery_optimize_allowed">Battery optimization ignored, allowing IM to run in background for better message real-time performance</string>
     <string name="battery_optimize_tip">Allow background running for better message real-time performance</string>
     <string name="system_version_not_support">System not supported</string>
 
@@ -209,8 +209,8 @@
     <string name="retry_after_seconds">Retry after %1$d seconds</string>
     <string name="e2e_not_enable">End-to-end encryption is not enabled</string>
     <string name="privacy_agreement_tip">Logging in means you agree to the </string>
-    <string name="privacy_agreement">WildFire IM Privacy Policy</string>
-    <string name="user_agreement">WildFire IM User Agreement</string>
+    <string name="privacy_agreement">Privacy Policy</string>
+    <string name="user_agreement">User Agreement</string>
     <string name="and">and</string>
     <string name="check_agreement_tip">Please agree to User Agreement and Privacy Policy</string>
 
