@@ -45,37 +45,35 @@ public class AboutActivity extends WfcBaseActivity {
         PackageManager packageManager = getPackageManager();
          try {
             PackageInfo packageInfo = packageManager.getPackageInfo(getPackageName(), PackageManager.GET_CONFIGURATIONS);
-            /*  String info = packageInfo.packageName + "\n"
-             *   + packageInfo.versionCode + " " + packageInfo.versionName + "\n"
-             *   + ChatManager.Instance().getProtoRevision() + "\n"
-             *   + Config.IM_SERVER_HOST + "\n"
-             *   + AppService.APP_SERVER_ADDRESS + "\n";
-            *
-           *  if (AVEngineKit.isSupportConference()) {
-           *     info += "高级版音视频\n";
-           *  } else {
-           *     info += "多人版音视频\n";
-            *    for (String[] ice : Config.ICE_SERVERS) {
-            *        info += ice[0] + " " + ice[1] + " " + ice[2] + "\n";
-            *    }
-            *  }
-            *
-           *  infoTextView.setText(info);
-          */
+               String info = packageInfo.packageName + "\n"
+                 + packageInfo.versionCode + " " + packageInfo.versionName + "\n"
+                 + ChatManager.Instance().getProtoRevision() + "\n"
+                 + Config.IM_SERVER_HOST + "\n"
+                 + AppService.APP_SERVER_ADDRESS + "\n";
+            
+           if (AVEngineKit.isSupportConference()) {
+             info += "高级版音视频\n";
+            } else {
+               info += "多人版音视频\n";
+                 for (String[] ice : Config.ICE_SERVERS) {
+                  info += ice[0] + " " + ice[1] + " " + ice[2] + "\n";
+                 }
+            } 
+            infoTextView.setText(info);
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
     }
     
-    /*
-    *  public void intro() {
-    *    if (BuildConfig.APPLICATION_ID.startsWith("cn.wildfirechat.")) {
-    *        WfcWebViewActivity.loadUrl(this, getString(R.string.about_intro_title), getString(R.string.about_intro_url));
-    *    } else {
-    *        Toast.makeText(this, "野火IM 功能介绍对第三方应用不适用", Toast.LENGTH_SHORT).show();
-    *    }
-    * }
-    */
+
+   public void intro() {
+   if (BuildConfig.APPLICATION_ID.startsWith("cn.wildfirechat.")) {
+            WfcWebViewActivity.loadUrl(this, getString(R.string.about_intro_title), getString(R.string.about_intro_url));
+        } else {
+            Toast.makeText(this, "功能介绍", Toast.LENGTH_SHORT).show();
+        }
+     }
+
 
     public void agreement() {
         if (TextUtils.isEmpty(Config.USER_AGREEMENT_URL) || Config.USER_AGREEMENT_URL.indexOf("https://example.com") >= 0) {
