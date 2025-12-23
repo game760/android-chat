@@ -7,10 +7,10 @@ apply plugin: 'com.google.gms.google-services'
 android {
     signingConfigs {
         wfc {
-            keyAlias 'wfc'
-            keyPassword 'wildfirechat'
-            storeFile file('../wfc.keystore')
-            storePassword 'wildfirechat'
+            keyAlias 'laodaoim'
+            keyPassword 'laodaoim'
+            storeFile file('./laodaoim.jks')
+            storePassword 'laodaoim'
         }
     }
     compileSdkVersion 34
@@ -68,7 +68,7 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            //signingConfig signingConfigs.wfc
+            signingConfig signingConfigs.wfc
         }
         debug {
             minifyEnabled true
