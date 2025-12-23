@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">LaoDaoIM</string>
+
+    <!--我-->
+    <string name="my_chat_account">帳號:%1$s</string>
+
+    <!--設定-->
+    <string name="new_message_remind">新訊息提醒</string>
+    <string name="exit">退出登入</string>
+
+    <!--關於-->
+    <string name="app_name_in_about">LaoDaoIM</string>
+    <string name="function_introduction">功能介紹</string>
+    <string name="complaint">投訴</string>
+    <string name="check_update">檢查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用條款和隱私政策</string>
+    <string name="name">LaoDaoIM</string>
+    <string name="slogan">溝通如此簡單</string>
+    <string name="about_intro_title">功能介紹</string>
+    <string name="about_intro_url">https://#</string>
+    <string name="about_agreement_title">使用者協議</string>
+    <string name="about_agreement_url">https://#</string>
+    <string name="about_privacy_title">隱私政策</string>
+    <string name="about_privacy_url">https://#</string>
+
+    <!--Login-->
+    <string name="mobile_number">手機號</string>
+    <string name="mobile_number_hint">請輸入手機號</string>
+    <string name="mobile_number_error_mobile_empty">手機號不能為空</string>
+    <string name="mobile_number_error_format">手機號格式不正確</string>
+    <string name="verify_code">驗證碼</string>
+    <string name="verify_code_hint">請輸入驗證碼</string>
+    <string name="get_verify_code">獲取驗證碼</string>
+    <string name="login_button">登入</string>
+    <string name="login_use_password">使用密碼登入</string>
+    <string name="login_success">登入成功</string>
+    <string name="sms_send_success">驗證碼發送成功</string>
+    <string name="password">密碼</string>
+    <string name="password_hint">請輸入密碼</string>
+    <string name="kicked_off_title">提示</string>
+    <string name="kicked_off_message">你的帳號已在其他手機登入</string>
+    <string name="kicked_off_confirm">知道了</string>
+    <string name="register_tip_title">提示</string>
+    <string name="register_tip_message">使用簡訊驗證碼登入，將會為您建立帳戶，請使用簡訊驗證碼登入</string>
+    <string name="login_progress">登入中...</string>
+    <string name="login_error_hint">網路出問題了:%1$d %2$s</string>
+    <string name="requesting_auth_code">請求驗證碼...</string>
+    <string name="auth_code_request_success">發送驗證碼成功</string>
+    <string name="auth_code_request_failure">發送驗證碼失敗: %1$d %2$s</string>
+    <string name="sms_login_failure">登入失敗：%1$d %2$s</string>
+    <string name="sms_login_title">驗證碼登入</string>
+
+    <!-- Login Activity Password Strings -->
+    <string name="login_password_title">密碼登入</string>
+    <string name="login_phone_label">手機號</string>
+    <string name="login_phone_hint">請輸入手機號(僅支援中國大陸手機號)</string>
+    <string name="login_password_label">密碼</string>
+    <string name="login_password_hint">請輸入密碼</string>
+    <string name="login_use_auth_code">使用驗證碼登入</string>
+    <string name="login_register">註冊</string>
+    <string name="login_button_text">登入</string>
+
+    <!--Main-->
+    <string name="chat">聊天</string>
+    <string name="discover">發現</string>
+    <string name="me">我</string>
+
+    <!--Main Activity-->
+    <string name="update_display_name_title">修改個人暱稱？</string>
+    <string name="update_display_name_positive">修改</string>
+    <string name="notification_permission_needed">需要通知權限，否則無法正常接收訊息通知</string>
+    <string name="alarm_permission_needed">需要精確鬧鐘權限，否則不能正常使用 IM 功能</string>
+    <string name="overlay_permission_needed">需要後台彈出介面和顯示浮動窗權限，否則後台執行時，無法彈出音視訊介面</string>
+    <string name="no_license">專業版IM服務沒有授權或者授權過期！！！</string>
+    <string name="time_inconsistent">伺服器和用戶端時間相差太大！！！</string>
+    <string name="address_book">通訊錄</string>
+    <string name="workspace">工作台</string>
+    <string name="error_selecting_file">選取檔案錯誤</string>
+
+    <!--Main Navigation-->
+    <string name="app_title_chat">訊息</string>
+    <string name="app_title_contact">通訊錄</string>
+    <string name="app_title_workspace">工作台</string>
+    <string name="app_title_discover">發現</string>
+    <string name="app_title_me">我的</string>
+
+    <!--Common-->
+    <string name="save">儲存</string>
+    <string name="cancel">取消</string>
+    <string name="loading">載入中...</string>
+    <string name="error_network">網路錯誤，請檢查網路連線</string>
+    <string name="error_server">伺服器錯誤，請稍後重試</string>
+
+    <!--System-->
+    <string name="av_init_failed">音視訊引擎初始化失敗</string>
+    <string name="permission_background_overlay_denied">缺少後台彈出介面權限和顯示浮動窗權限</string>
+    <string name="voip_notification_silenced">使用者設定禁止通話通知，忽略來電提醒</string>
+    <string name="init_success">初始化完成</string>
+
+    <!-- Commercial -->
+    <string name="commercial_not_support">商業版不支援此功能</string>
+    <string name="commercial_multicall_not_support">目前版本不支援多人通話</string>
+
+    <!-- Errors -->
+    <string name="delete_message_error">刪除訊息失敗: %1$d</string>
+    <string name="message_recall_failed">撤回訊息失敗: %1$d</string>
+    <string name="send_audio_file_error">發送語音檔案失敗</string>
+
+    <!-- Chat Input Panel -->
+    <string name="channel_no_menu">頻道暫未配置選單</string>
+    <string name="max_emoji_limit">最多允許輸入%1$d個表情符號</string>
+    <string name="audio_record_permission">需要錄音權限</string>
+
+    <!-- Common -->
+    <string name="add">新增</string>
+    <string name="setting">設定</string>
+    <string name="resend_message">重新發送?</string>
+    <string name="message_content">訊息內容</string>
+
+    <!-- Error -->
+    <string name="decode_secret_error">解密資料錯誤 %1$d</string>
+    <string name="audio_not_exist">音訊檔案不存在</string>
+
+    <!--Discovery-->
+    <string name="wfc_doc_title">使用說明</string>
+    <string name="wfc_doc_url">https://#</string>
+
+    <!--Me Fragment-->
+    <string name="account_label">帳號: %1$s</string>
+
+    <!--PC Login-->
+    <string name="pc_login_allow">允許 %1$s 登入</string>
+    <string name="pc_login_processing">處理中</string>
+    <string name="pc_login_success">登入成功</string>
+    <string name="pc_login_status">狀態: %1$d</string>
+
+    <!-- Change Password -->
+    <string name="password_not_match">兩次輸入的密碼不一致</string>
+    <string name="password_changing">正在修改密碼...</string>
+    <string name="password_change_success">修改密碼成功</string>
+    <string name="password_change_failed">修改密碼失敗:%1$d %2$s</string>
+
+    <!-- Reset Password -->
+    <string name="requesting_reset_code">請求驗證碼...</string>
+    <string name="reset_code_send_success">發送驗證碼成功</string>
+    <string name="reset_code_send_failure">發送驗證碼失敗: %1$d %2$s</string>
+    <string name="reset_password_progress">正在修改密碼...</string>
+    <string name="reset_password_success">重設密碼成功</string>
+    <string name="reset_password_failure">重設密碼失敗: %1$d %2$s</string>
+
+    <!-- Setting -->
+    <string name="upload_log_success">上傳日誌 %1$s 成功</string>
+    <string name="upload_log_failed">上傳日誌失敗 %1$d %2$s</string>
+    <string name="battery_optimize_allowed">已忽略電池最佳化，允許IM後台執行，更能保證訊息的即時性</string>
+    <string name="battery_optimize_tip">允許後台執行，更能保證訊息的即時性</string>
+    <string name="system_version_not_support">系統不支援</string>
+
+    <!-- Diagnose -->
+    <string name="diagnose_start">開始進行網路診斷，請稍後</string>
+    <string name="diagnose_current_time">目前時間：%1$s</string>
+    <string name="diagnose_app_server">APP-Server: %1$s</string>
+    <string name="diagnose_route_host">Route-Host: %1$s</string>
+    <string name="diagnose_route_port">Route-Port: %1$d</string>
+    <string name="diagnose_longlink_host">Long-Link-Host: %1$s</string>
+    <string name="diagnose_longlink_port">Long-Link-Port: %1$d</string>
+    <string name="diagnose_av_sdk">音視訊 SDK: %1$s</string>
+    <string name="diagnose_av_sdk_pro">高階版</string>
+    <string name="diagnose_av_sdk_basic">多人版</string>
+    <string name="diagnose_turnserver">Turn-Server: %1$s</string>
+    <string name="diagnose_proto_version">協定堆疊版本：%1$s</string>
+    <string name="diagnose_app_server_ok">APP-Server 正常</string>
+    <string name="diagnose_app_server_error">APP-Server 異常: %1$s</string>
+    <string name="diagnose_im_server_ok">IM-Server api/version 正常\n</string>
+    <string name="diagnose_remote_origin">remoteOriginUrl: %1$s</string>
+    <string name="diagnose_commit_message">commitMessageShort: %1$s</string>
+    <string name="diagnose_commit_time">commitTime: %1$s</string>
+    <string name="diagnose_im_server_error">IM-Server api/version 異常: %1$d %2$s</string>
+    <string name="diagnose_longlink_empty">長連線位址為空，route 請求可能已異常</string>
+    <string name="diagnose_tcp_ping_ok">IM-Server 長連線 tcp ping 正常</string>
+    <string name="diagnose_tcp_ping_error">IM-Server 長連線 tcp ping 異常: %1$s</string>
+
+    <!-- Main Menu -->
+    <string name="more">更多</string>
+    <string name="start_group_chat">發起群聊</string>
+    <string name="start_secret_chat">發起密聊</string>
+    <string name="moment">朋友圈</string>
+    <string name="chatroom">聊天室</string>
+    <string name="robot">機器人</string>
+    <string name="channel">頻道</string>
+    <string name="dev_guide">開發手冊</string>
+    <string name="conference">會議</string>
+    <string name="chat_background">聊天背景</string>
+    <string name="favorites">收藏</string>
+    <string name="account_security">帳號與安全</string>
+    <string name="theme">佈景主題</string>
+    <string name="about">關於</string>
+    <string name="diagnose">診斷</string>
+    <string name="upload_log">上傳日誌</string>
+    <string name="battery_optimization">電池最佳化</string>
+    <string name="change_password">修改密碼</string>
+    <string name="set_new_password">設定新密碼</string>
+    <string name="account_and_security">帳號與密碼</string>
+    <string name="language">語言</string>
+    <string name="language_chinese">中文-简体</string>
+    <string name="language_chinese_tw">中文-繁体</string>
+    <string name="language_english">English</string>
+    <string name="language_change_tip">語言設定將在重啟應用後生效</string>
+    <string name="confirm">確認</string>
+    <string name="retry_after_seconds">%1$d秒後重試</string>
+    <string name="e2e_not_enable">密聊功能未啟用</string>
+    <string name="privacy_agreement_tip"> 登入即代表同意 </string>
+    <string name="privacy_agreement">隱私政策</string>
+    <string name="user_agreement">使用者協議</string>
+    <string name="and">和</string>
+    <string name="check_agreement_tip">請同意使用者協議及隱私政策</string>
+
+    <!-- Agreement Activity -->
+    <string name="agreement_welcome">歡迎使用LaoDaoIM</string>
+    <string name="agreement_demo_notice">APP僅提供基礎功能，以滿足日常使用。</string>
+    <string name="agreement_description">LaoDaoIM為即時通訊類應用，其基本功能為收發文字、圖片、影片、位置等訊息，以及進行音視訊通話。為實現其基本功能，需要使用自啟動、通知、麥克風、相機等權限，但在您同意之前，我們不會取得任何權限。在使用之前，請仔細閱讀下面的隱私政策和使用者協議。</string>
+    <string name="agreement_agree">同意並繼續</string>
+    <string name="agreement_disagree">不同意</string>
+    <string name="no_privacy_agreement_url_tip">請配置隱私政策</string>
+    <string name="no_user_agreement_url_tip">請配置使用者協議</string>
+</resources>
