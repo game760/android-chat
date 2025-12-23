@@ -192,7 +192,7 @@
     <string name="conference">Conference</string>
     <string name="chat_background">Chat Background</string>
     <string name="favorites">Favorites</string>
-    <string name="account_security">Account & Security</string>
+    <string name="account_security">Account &amp; Security</string>
     <string name="theme">Theme</string>
     <string name="about">About</string>
     <string name="diagnose">Diagnosis</string>
@@ -200,7 +200,7 @@
     <string name="battery_optimization">Battery Optimization</string>
     <string name="change_password">Change Password</string>
     <string name="set_new_password">Set New Password</string>
-    <string name="account_and_security">Account & Password</string>
+    <string name="account_and_security">Account &amp; Password</string>
     <string name="language">Language</string>
     <string name="language_chinese">Chinese</string>
     <string name="language_english">English</string>
