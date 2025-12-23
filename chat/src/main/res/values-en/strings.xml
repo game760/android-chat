@@ -202,8 +202,7 @@
     <string name="set_new_password">Set New Password</string>
     <string name="account_and_security">Account &amp; Password</string>
     <string name="language">Language</string>
-    <string name="language_chinese">中文简体</string>
-    <string name="language_chinese_tw">中文繁体</string>
+    <string name="language_chinese">中文</string>
     <string name="language_english">English</string>
     <string name="language_change_tip">Language settings will take effect after app restart</string>
     <string name="confirm">Confirm</string>
