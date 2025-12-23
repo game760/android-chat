@@ -11,6 +11,8 @@ android {
             keyPassword 'laodaoim'
             storeFile file('./laodaoim.jks')
             storePassword 'laodaoim'
+            v2SigningEnabled true
+            v3SigningEnabled true
         }
     }
     compileSdkVersion 34
