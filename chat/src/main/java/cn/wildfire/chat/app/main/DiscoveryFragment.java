@@ -101,7 +101,7 @@ public class DiscoveryFragment extends Fragment {
         if (BuildConfig.APPLICATION_ID.startsWith("cn.wildfirechat.")) {
         WfcWebViewActivity.loadUrl(getContext(), getString(R.string.wfc_doc_title), getString(R.string.wfc_doc_url));
         } else {
-            Toast.makeText(getContext(), "野火IM 开发文档对第三方应用不适用", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "文档对其它应用不适用", Toast.LENGTH_SHORT).show();
         }
     }
 
