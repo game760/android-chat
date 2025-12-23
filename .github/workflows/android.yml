@@ -19,9 +19,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew clean aDebug
+      run: ./gradlew clean aRelease
 
       # 打包完成之后进行上传
     - uses: actions/upload-artifact@v4
       with:
-          path: chat/build/outputs/apk/debug/chat-debug.apk
+          path: chat/build/outputs/apk/**/*.apk
