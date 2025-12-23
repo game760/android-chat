@@ -203,7 +203,6 @@
     <string name="account_and_security">账号与密码</string>
     <string name="language">语言</string>
     <string name="language_chinese">中文简体</string>
-    <string name="language_chinese_tw">中文繁体</string>
     <string name="language_english">English</string>
     <string name="language_change_tip">语言设置将在重启应用后生效</string>
     <string name="confirm">确认</string>
