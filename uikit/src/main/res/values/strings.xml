@@ -717,7 +717,7 @@
     <string name="saved_groups_hint">(保存到通讯录的群组)</string>
 
     <!-- Wildfire ID -->
-    <string name="wildfire_id">野火ID</string>
+    <string name="wildfire_id">LDID</string>
 
     <!-- Friend Request -->
     <string name="friend_request_desc">请求添加您为好友</string>
