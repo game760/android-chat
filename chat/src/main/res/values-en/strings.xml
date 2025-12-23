@@ -11,13 +11,13 @@
 
     <!--About-->
     <string name="app_name_in_about">LaoDaoIM</string>
-    <string name="function_introduction">Feature Introduction</string>
-    <string name="complaint">Complaints</string>
+    <string name="function_introduction">Function Introduction</string>
+    <string name="complaint">Complaint</string>
     <string name="check_update">Check for Updates</string>
     <string name="terms_of_use_and_privacy_policy">Terms of Use and Privacy Policy</string>
     <string name="name">LaoDaoIM</string>
     <string name="slogan">Communication Made Simple</string>
-    <string name="about_intro_title">Feature Introduction</string>
+    <string name="about_intro_title">Function Introduction</string>
     <string name="about_intro_url">https://#</string>
     <string name="about_agreement_title">User Agreement</string>
     <string name="about_agreement_url">https://#</string>
@@ -34,7 +34,7 @@
     <string name="get_verify_code">Get Verification Code</string>
     <string name="login_button">Log In</string>
     <string name="login_use_password">Log in with Password</string>
-    <string name="login_success">Login successful</string>
+    <string name="login_success">Login Successful</string>
     <string name="sms_send_success">Verification code sent successfully</string>
     <string name="password">Password</string>
     <string name="password_hint">Please enter password</string>
@@ -42,9 +42,9 @@
     <string name="kicked_off_message">Your account has logged in on another device</string>
     <string name="kicked_off_confirm">Got it</string>
     <string name="register_tip_title">Prompt</string>
-    <string name="register_tip_message">Logging in with SMS verification code will create an account for you. Please log in using SMS verification code.</string>
+    <string name="register_tip_message">Logging in with SMS verification code will create an account for you. Please log in with SMS verification code.</string>
     <string name="login_progress">Logging in...</string>
-    <string name="login_error_hint">Network error: %1$d %2$s</string>
+    <string name="login_error_hint">Network error:%1$d %2$s</string>
     <string name="requesting_auth_code">Requesting verification code...</string>
     <string name="auth_code_request_success">Verification code sent successfully</string>
     <string name="auth_code_request_failure">Failed to send verification code: %1$d %2$s</string>
@@ -67,11 +67,11 @@
     <string name="me">Me</string>
 
     <!--Main Activity-->
-    <string name="update_display_name_title">Modify Nickname?</string>
+    <string name="update_display_name_title">Modify Personal Nickname?</string>
     <string name="update_display_name_positive">Modify</string>
     <string name="notification_permission_needed">Notification permission is required to receive message notifications normally</string>
-    <string name="alarm_permission_needed">Exact alarm permission is required to use IM functions normally</string>
-    <string name="overlay_permission_needed">Display over other apps and floating window permissions are required to pop up audio/video interface when running in background</string>
+    <string name="alarm_permission_needed">Precise alarm permission is required to use IM functions normally</string>
+    <string name="overlay_permission_needed">Background pop-up and floating window permissions are required to display audio/video interface when running in background</string>
     <string name="no_license">Professional IM service is unlicensed or license expired!!!</string>
     <string name="time_inconsistent">Time difference between server and client is too large!!!</string>
     <string name="address_book">Contacts</string>
@@ -94,8 +94,8 @@
 
     <!--System-->
     <string name="av_init_failed">Audio/Video engine initialization failed</string>
-    <string name="permission_background_overlay_denied">Missing display over other apps and floating window permissions</string>
-    <string name="voip_notification_silenced">User disabled call notifications, ignoring incoming call reminder</string>
+    <string name="permission_background_overlay_denied">Missing background pop-up and floating window permissions</string>
+    <string name="voip_notification_silenced">User disabled call notifications, ignoring incoming call reminders</string>
     <string name="init_success">Initialization completed</string>
 
     <!-- Commercial -->
@@ -108,18 +108,18 @@
     <string name="send_audio_file_error">Failed to send audio file</string>
 
     <!-- Chat Input Panel -->
-    <string name="channel_no_menu">No menu configured for this channel</string>
+    <string name="channel_no_menu">No menu configured for channel</string>
     <string name="max_emoji_limit">Maximum %1$d emoji characters allowed</string>
     <string name="audio_record_permission">Microphone permission is required</string>
 
     <!-- Common -->
     <string name="add">Add</string>
     <string name="setting">Settings</string>
-    <string name="resend_message">Resend?</string>
+    <string name="resend_message">Resend message?</string>
     <string name="message_content">Message Content</string>
 
     <!-- Error -->
-    <string name="decode_secret_error">Failed to decrypt data %1$d</string>
+    <string name="decode_secret_error">Data decryption error %1$d</string>
     <string name="audio_not_exist">Audio file does not exist</string>
 
     <!--Discovery-->
@@ -132,19 +132,19 @@
     <!--PC Login-->
     <string name="pc_login_allow">Allow %1$s to log in</string>
     <string name="pc_login_processing">Processing</string>
-    <string name="pc_login_success">Login successful</string>
+    <string name="pc_login_success">Login Successful</string>
     <string name="pc_login_status">Status: %1$d</string>
 
     <!-- Change Password -->
     <string name="password_not_match">Passwords do not match</string>
     <string name="password_changing">Changing password...</string>
     <string name="password_change_success">Password changed successfully</string>
-    <string name="password_change_failed">Failed to change password: %1$d %2$s</string>
+    <string name="password_change_failed">Failed to change password:%1$d %2$s</string>
 
     <!-- Reset Password -->
-    <string name="requesting_reset_code">Requesting verification code...</string>
-    <string name="reset_code_send_success">Verification code sent successfully</string>
-    <string name="reset_code_send_failure">Failed to send verification code: %1$d %2$s</string>
+    <string name="requesting_reset_code">Requesting reset code...</string>
+    <string name="reset_code_send_success">Reset code sent successfully</string>
+    <string name="reset_code_send_failure">Failed to send reset code: %1$d %2$s</string>
     <string name="reset_password_progress">Resetting password...</string>
     <string name="reset_password_success">Password reset successfully</string>
     <string name="reset_password_failure">Failed to reset password: %1$d %2$s</string>
@@ -152,13 +152,13 @@
     <!-- Setting -->
     <string name="upload_log_success">Uploaded log %1$s successfully</string>
     <string name="upload_log_failed">Failed to upload log %1$d %2$s</string>
-    <string name="battery_optimize_allowed">Battery optimization ignored, allowing IM to run in background for better message real-time performance</string>
-    <string name="battery_optimize_tip">Allow background running for better message real-time performance</string>
+    <string name="battery_optimize_allowed">Battery optimization ignored, IM can run in background to ensure real-time message reception</string>
+    <string name="battery_optimize_tip">Allow background running to ensure real-time message reception</string>
     <string name="system_version_not_support">System not supported</string>
 
     <!-- Diagnose -->
     <string name="diagnose_start">Starting network diagnosis, please wait</string>
-    <string name="diagnose_current_time">Current time: %1$s</string>
+    <string name="diagnose_current_time">Current Time: %1$s</string>
     <string name="diagnose_app_server">APP-Server: %1$s</string>
     <string name="diagnose_route_host">Route-Host: %1$s</string>
     <string name="diagnose_route_port">Route-Port: %1$d</string>
@@ -168,17 +168,17 @@
     <string name="diagnose_av_sdk_pro">Professional Edition</string>
     <string name="diagnose_av_sdk_basic">Multi-party Edition</string>
     <string name="diagnose_turnserver">Turn-Server: %1$s</string>
-    <string name="diagnose_proto_version">Protocol stack version: %1$s</string>
-    <string name="diagnose_app_server_ok">APP-Server is normal</string>
-    <string name="diagnose_app_server_error">APP-Server is abnormal: %1$s</string>
-    <string name="diagnose_im_server_ok">IM-Server api/version is normal\n</string>
+    <string name="diagnose_proto_version">Protocol Stack Version: %1$s</string>
+    <string name="diagnose_app_server_ok">APP-Server Normal</string>
+    <string name="diagnose_app_server_error">APP-Server Abnormal: %1$s</string>
+    <string name="diagnose_im_server_ok">IM-Server api/version Normal\n</string>
     <string name="diagnose_remote_origin">remoteOriginUrl: %1$s</string>
     <string name="diagnose_commit_message">commitMessageShort: %1$s</string>
     <string name="diagnose_commit_time">commitTime: %1$s</string>
-    <string name="diagnose_im_server_error">IM-Server api/version is abnormal: %1$d %2$s</string>
-    <string name="diagnose_longlink_empty">Long connection address is empty, route request may be abnormal</string>
-    <string name="diagnose_tcp_ping_ok">IM-Server long connection tcp ping is normal</string>
-    <string name="diagnose_tcp_ping_error">IM-Server long connection tcp ping is abnormal: %1$s</string>
+    <string name="diagnose_im_server_error">IM-Server api/version Abnormal: %1$d %2$s</string>
+    <string name="diagnose_longlink_empty">Long connection address empty, route request may be abnormal</string>
+    <string name="diagnose_tcp_ping_ok">IM-Server long connection tcp ping Normal</string>
+    <string name="diagnose_tcp_ping_error">IM-Server long connection tcp ping Abnormal: %1$s</string>
 
     <!-- Main Menu -->
     <string name="more">More</string>
@@ -207,8 +207,8 @@
     <string name="language_change_tip">Language settings will take effect after app restart</string>
     <string name="confirm">Confirm</string>
     <string name="retry_after_seconds">Retry after %1$d seconds</string>
-    <string name="e2e_not_enable">End-to-end encryption is not enabled</string>
-    <string name="privacy_agreement_tip">Logging in means you agree to the </string>
+    <string name="e2e_not_enable">Secret chat feature not enabled</string>
+    <string name="privacy_agreement_tip"> By logging in, you agree to the </string>
     <string name="privacy_agreement">Privacy Policy</string>
     <string name="user_agreement">User Agreement</string>
     <string name="and">and</string>
@@ -216,10 +216,10 @@
 
     <!-- Agreement Activity -->
     <string name="agreement_welcome">Welcome to LaoDaoIM</string>
-    <string name="agreement_demo_notice">This app only provides basic functions for daily use.</string>
-    <string name="agreement_description">LaoDaoIM is an instant messaging application that provides basic functions including sending/receiving text, images, videos, location messages, and making audio/video calls. To implement these basic functions, permissions such as auto-start, notification, microphone, and camera are required, but we will not obtain any permissions without your consent. Please carefully read the Privacy Policy and User Agreement below before use.</string>
+    <string name="agreement_demo_notice">This APP only provides basic functions for daily use.</string>
+    <string name="agreement_description">LaoDaoIM is an instant messaging application that supports sending/receiving text, images, videos, location messages, and making audio/video calls. To implement these basic functions, it requires permissions for auto-start, notifications, microphone, camera, etc. However, we will not obtain any permissions without your consent. Please read the Privacy Policy and User Agreement carefully before use.</string>
     <string name="agreement_agree">Agree and Continue</string>
     <string name="agreement_disagree">Disagree</string>
-    <string name="no_privacy_agreement_url_tip">Please configure Privacy Policy URL</string>
-    <string name="no_user_agreement_url_tip">Please configure User Agreement URL</string>
+    <string name="no_privacy_agreement_url_tip">Please configure Privacy Policy</string>
+    <string name="no_user_agreement_url_tip">Please configure User Agreement</string>
 </resources>
