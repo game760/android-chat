@@ -70,7 +70,7 @@ public class AboutActivity extends WfcBaseActivity {
    if (BuildConfig.APPLICATION_ID.startsWith("cn.wildfirechat.")) {
             WfcWebViewActivity.loadUrl(this, getString(R.string.about_intro_title), getString(R.string.about_intro_url));
         } else {
-            Toast.makeText(this, "功能介绍", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "对其它应用不适用", Toast.LENGTH_SHORT).show();
         }
      }
 
